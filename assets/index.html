@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shilpa Tamrakar- Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <!--Navbar start here-->
+    <nav id="desktop-nav">
+        <div class="logo">Shilpa Tamrakar</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Shilpa Tamrakar</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </div>
+
+        </div>
+    </nav>
+    <!--Navbar ends here-->
+
+    <!--Profile section start here-->
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="profile-pic.png" alt="profile pic">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello I'm</p>
+            <h1 class="title">Shilpa Tamrakar</h1>
+            <span class="section__text__p2"></span>
+            <div class="btn-container">
+                <button class="btn btn-color-1">Contact Info</button>
+                <button class="btn btn-color-2">Dowload Resume</button>
+            </div>
+            <div class="socials-container">
+                <img src="linkedin.png" alt="linkedin" class="icon">
+                <img src="github.png" alt="github" class="icon">
+            </div>
+        </div>
+    </section>
+    <!--Profile section ends here-->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('.section__text__p2', {
+      strings: ["Front End Developer", "React JS Developer"],
+      typeSpeed: 50,
+      backSpeed: 150,
+      loop: true
+    });
+  </script>
+    <script src="script.js"></script>
+</body>
+</html>
